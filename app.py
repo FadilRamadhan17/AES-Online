@@ -9,8 +9,8 @@ from file import FileHandler
 
 app = Flask(__name__)
 
-PLAINTEXT_FOLDER = 'plaintext_files'
-CIPHERTEXT_FOLDER = 'ciphertext_files'
+# PLAINTEXT_FOLDER = 'plaintext_files'
+# CIPHERTEXT_FOLDER = 'ciphertext_files'
 
 # os.makedirs(PLAINTEXT_FOLDER, exist_ok=True)
 # os.makedirs(CIPHERTEXT_FOLDER, exist_ok=True)

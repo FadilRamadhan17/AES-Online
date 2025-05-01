@@ -5,11 +5,6 @@ from io import BytesIO
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
 
-PLAINTEXT_FOLDER = 'plaintext_files'
-CIPHERTEXT_FOLDER = 'ciphertext_files'
-os.makedirs(PLAINTEXT_FOLDER, exist_ok=True)
-os.makedirs(CIPHERTEXT_FOLDER, exist_ok=True)
-
 class FileHandler:
     @staticmethod
     def read_pdf(file):
